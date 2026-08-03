@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Cyberpunk 2077",
+        "genre": "Екшен",
+        "platform": "PC",
+        "price": 899,
+        "image": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+        "description": "Футуристичний екшен у великому кіберпанковому місті.",
+        "popular": true
+    },
+    {
+        "id": 2,
+        "title": "Witcher 3",
+        "genre": "RPG",
+        "platform": "PC",
+        "price": 749,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0714/ojKZ7l0T2M5egR9YHIjVhI0R.png",
+        "description": "Рольова гра про магію, пригоди та загадкове королівство.",
+        "popular": true
+    },
+    {
+        "id": 3,
+        "title": "Forza horizon 6",
+        "genre": "Перегони",
+        "platform": "PlayStation",
+        "price": 999,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzj4GbuvGrtIGE0oUZiezvKe-rKUY3dvG5M0exDc8lUA&s=10",
+        "description": "Динамічні перегони на спортивних автомобілях.",
+        "popular": true
+    },
+    {
+        "id": 4,
+        "title": "Fc 27",
+        "genre": "Спорт",
+        "platform": "Xbox",
+        "price": 850,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYS-HAKcG53sh7oarmz8ij-_N8RXtE6k8RT2sOe-t-A&s",
+        "description": "Футбольний симулятор із командами та турнірами.",
+        "popular": false
+    },
+    {
+        "id": 5,
+        "title": "The last of us",
+        "genre": "Екшен",
+        "platform": "PC",
+        "price": 620,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieGM5DSONttbRcrmxGksAgzWHrdri0MEKV-2z_Pg9wQ&s=10",
+        "description": "Виживання у місті, яке захопили небезпечні зомбі.",
+        "popular": false
+    },
+    {
+        "id": 6,
+        "title": "Farming simulator 25",
+        "genre": "Симулятор",
+        "platform": "Nintendo Switch",
+        "price": 540,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdntJFM0khcSGMWxl0WxKrAiBc_ZS4XyyNwyHEDBakWw&s=10",
+        "description": "Створюйте власну ферму, вирощуйте рослини та доглядайте тварин.",
+        "popular": false
+    },
+    {
+        "id": 7,
+        "title": "No man's sky",
+        "genre": "Стратегія",
+        "platform": "PC",
+        "price": 690,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR951yvaL7vlgwEdjl2ZNAsZvZxmUrYbQW6ZF1Eie0n9A&s=10",
+        "description": "Керуйте космічним флотом та досліджуйте далекі планети.",
+        "popular": false
+    },
+    {
+        "id": 8,
+        "title": "Silent hill",
+        "genre": "Пригоди",
+        "platform": "PlayStation",
+        "price": 780,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyr0o7SjEE_7KZQvS1ZrlT56ocUqNG7qBC2hftbEYq_A&s=10",
+        "description": "Детективна пригода із загадками та несподіваними подіями.",
+        "popular": false
+    },
+    {
+        "id": 9,
+        "title": "Sea of thieves",
+        "genre": "Шутер",
+        "platform": "Xbox",
+        "price": 920,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_sHhlYAL2O3YVf9JhCguink71Ib2QU07BNyZADJDmA&s=10",
+        "description": "Командні битви на різних аренах та унікальні персонажі.",
+        "popular": false
+    }
+]

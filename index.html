@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>GameZone — магазин ігор</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="home">
+
+<header class="header">
+    <div class="container header-container">
+        <a href="index.html" class="logo">
+            GameZone
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html" class="active">
+                Головна
+            </a>
+
+            <a href="store.html">
+                Магазин
+            </a>
+
+            <a href="basket.html">
+                Кошик
+
+                <span class="cart-count">
+                    0
+                </span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- Головний екран -->
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-information">
+                <p class="hero-label">
+                    Онлайн-магазин відеоігор
+                </p>
+
+                <h1>
+                    Обирай ігри та відкривай нові світи
+                </h1>
+
+                <p class="hero-text">
+                    Переглядай каталог, додавай улюблені ігри
+                    до кошика та оформлюй покупку всього
+                    за декілька кроків.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="store.html" class="button">
+                        Перейти до магазину
+                    </a>
+
+                    <a href="#categories" class="secondary-button">
+                        Переглянути жанри
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика -->
+
+    <section class="statistics">
+        <div class="container statistics-grid">
+            <article class="statistic-item">
+                <strong>100+</strong>
+                <span>Ігор у каталозі</span>
+            </article>
+
+            <article class="statistic-item">
+                <strong>8</strong>
+                <span>Популярних жанрів</span>
+            </article>
+
+            <article class="statistic-item">
+                <strong>4</strong>
+                <span>Ігрові платформи</span>
+            </article>
+
+            <article class="statistic-item">
+                <strong>24/7</strong>
+                <span>Доступ до магазину</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Категорії -->
+
+    <section class="categories-section" id="categories">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">
+                        Оберіть напрямок
+                    </p>
+
+                    <h2>
+                        Категорії ігор
+                    </h2>
+                </div>
+
+                <a href="store.html" class="text-link">
+                    Весь каталог →
+                </a>
+            </div>
+
+            <div class="categories-grid">
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        ⚔️
+                    </span>
+
+                    <div>
+                        <h3>Екшен</h3>
+
+                        <p>
+                            Динамічні битви, пригоди та небезпечні місії.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        🧙
+                    </span>
+
+                    <div>
+                        <h3>RPG</h3>
+
+                        <p>
+                            Розвиток персонажів, магія та великі світи.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        🏎️
+                    </span>
+
+                    <div>
+                        <h3>Перегони</h3>
+
+                        <p>
+                            Швидкі автомобілі та захопливі траси.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        🧠
+                    </span>
+
+                    <div>
+                        <h3>Стратегії</h3>
+
+                        <p>
+                            Планування, розвиток та керування командами.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        ⚽
+                    </span>
+
+                    <div>
+                        <h3>Спорт</h3>
+
+                        <p>
+                            Футбол, баскетбол та інші спортивні ігри.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="store.html" class="category-card">
+                    <span class="category-icon">
+                        🚜
+                    </span>
+
+                    <div>
+                        <h3>Симулятори</h3>
+
+                        <p>
+                            Керуйте фермою, містом або власним бізнесом.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярні ігри -->
+
+    <section class="popular-section">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">
+                        Рекомендуємо
+                    </p>
+
+                    <h2>
+                        Популярні ігри
+                    </h2>
+                </div>
+
+                <a href="store.html" class="text-link">
+                    Переглянути всі →
+                </a>
+            </div>
+
+            <div class="games-grid" id="popularGames">
+                <p class="loading-message">
+                    Завантаження ігор...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Акція -->
+
+    <section class="sale-section">
+        <div class="container sale-container">
+            <div class="sale-content">
+                <p class="section-label">
+                    Спеціальна пропозиція
+                </p>
+
+                <h2>
+                    Знижки до 40% на популярні ігри
+                </h2>
+
+                <p>
+                    Перегляньте каталог та знайдіть гру
+                    для своєї улюбленої платформи.
+                </p>
+
+                <a href="store.html" class="button">
+                    Переглянути пропозиції
+                </a>
+            </div>
+
+            <div class="sale-image">
+                <span>−40%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Як працює магазин -->
+
+    <section class="steps-section">
+        <div class="container">
+            <div class="center-heading">
+                <p class="section-label">
+                    Усе дуже просто
+                </p>
+
+                <h2>
+                    Як придбати гру
+                </h2>
+
+                <p>
+                    Для оформлення покупки потрібно виконати
+                    лише три прості кроки.
+                </p>
+            </div>
+
+            <div class="steps-grid">
+                <article class="step-card">
+                    <span class="step-number">
+                        1
+                    </span>
+
+                    <h3>
+                        Оберіть гру
+                    </h3>
+
+                    <p>
+                        Перейдіть до каталогу та знайдіть
+                        цікаву для вас гру.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">
+                        2
+                    </span>
+
+                    <h3>
+                        Додайте до кошика
+                    </h3>
+
+                    <p>
+                        Натисніть кнопку «До кошика»
+                        на картці вибраної гри.
+                    </p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">
+                        3
+                    </span>
+
+                    <h3>
+                        Підтвердьте покупку
+                    </h3>
+
+                    <p>
+                        Заповніть просту форму та підтвердьте
+                        своє замовлення.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Переваги -->
+
+    <section class="advantages">
+        <div class="container">
+            <div class="center-heading">
+                <p class="section-label">
+                    Чому обирають нас
+                </p>
+
+                <h2>
+                    Переваги GameZone
+                </h2>
+            </div>
+
+            <div class="advantages-grid">
+                <article class="advantage-card">
+                    <span class="advantage-icon">
+                        🎮
+                    </span>
+
+                    <h3>
+                        Великий вибір
+                    </h3>
+
+                    <p>
+                        Екшени, RPG, стратегії, симулятори
+                        та багато інших жанрів.
+                    </p>
+                </article>
+
+                <article class="advantage-card">
+                    <span class="advantage-icon">
+                        🔍
+                    </span>
+
+                    <h3>
+                        Зручний пошук
+                    </h3>
+
+                    <p>
+                        Знаходьте ігри за назвою, жанром
+                        або ігровою платформою.
+                    </p>
+                </article>
+
+                <article class="advantage-card">
+                    <span class="advantage-icon">
+                        🛒
+                    </span>
+
+                    <h3>
+                        Простий кошик
+                    </h3>
+
+                    <p>
+                        Додавайте ігри, змінюйте їх кількість
+                        та видаляйте непотрібні товари.
+                    </p>
+                </article>
+
+                <article class="advantage-card">
+                    <span class="advantage-icon">
+                        ⚡
+                    </span>
+
+                    <h3>
+                        Швидка покупка
+                    </h3>
+
+                    <p>
+                        Оформлення замовлення займає
+                        всього декілька хвилин.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Відгуки -->
+
+    <section class="reviews-section">
+        <div class="container">
+            <div class="center-heading">
+                <p class="section-label">
+                    Відгуки покупців
+                </p>
+
+                <h2>
+                    Що говорять про магазин
+                </h2>
+            </div>
+
+            <div class="reviews-grid">
+                <article class="review-card">
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        Зручний та зрозумілий сайт.
+                        Швидко знайшов потрібну гру
+                        та додав її до кошика.
+                    </p>
+
+                    <div class="review-user">
+                        <span class="review-avatar">
+                            О
+                        </span>
+
+                        <div>
+                            <h3>Олександр</h3>
+                            <span>Покупець</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        Сподобався пошук за жанрами
+                        та платформами. Усе працює просто
+                        і зрозуміло.
+                    </p>
+
+                    <div class="review-user">
+                        <span class="review-avatar">
+                            М
+                        </span>
+
+                        <div>
+                            <h3>Марія</h3>
+                            <span>Покупець</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        Гарний навчальний приклад магазину.
+                        Особливо сподобалась робота кошика.
+                    </p>
+
+                    <div class="review-user">
+                        <span class="review-avatar">
+                            А
+                        </span>
+
+                        <div>
+                            <h3>Андрій</h3>
+                            <span>Покупець</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Підписка -->
+
+    <section class="subscribe-section">
+        <div class="container subscribe-container">
+            <div>
+                <p class="section-label">
+                    Будьте в курсі
+                </p>
+
+                <h2>
+                    Дізнавайтеся про нові ігри
+                </h2>
+
+                <p>
+                    Залиште свою електронну пошту,
+                    щоб отримувати новини та спеціальні пропозиції.
+                </p>
+            </div>
+
+            <form class="subscribe-form" id="subscribeForm">
+                <input
+                    type="email"
+                    id="subscribeEmail"
+                    placeholder="Введіть ваш email"
+                    required
+                >
+
+                <button type="submit" class="button">
+                    Підписатися
+                </button>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-container">
+        <p>
+            © 2026 GameZone
+        </p>
+
+        <p>
+            Навчальний приклад магазину ігор
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+    const subscribeForm =
+        document.getElementById("subscribeForm");
+
+    subscribeForm.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const emailInput =
+            document.getElementById("subscribeEmail");
+
+        alert(
+            `Дякуємо за підписку!\nНовини надсилатимуться на ${emailInput.value}.`
+        );
+
+        subscribeForm.reset();
+    });
+</script>
+
+</body>
+</html>

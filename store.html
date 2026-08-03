@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Магазин — GameZone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="store">
+
+<header class="header">
+    <div class="container header-container">
+        <a href="index.html" class="logo">GameZone</a>
+
+        <nav class="navigation">
+            <a href="index.html">Головна</a>
+            <a href="store.html" class="active">Магазин</a>
+
+            <a href="basket.html">
+                Кошик
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <p class="section-label">Каталог</p>
+
+            <h1>Магазин ігор</h1>
+
+            <p>
+                Перегляньте асортимент та додайте потрібні ігри до кошика.
+            </p>
+        </div>
+    </section>
+
+    <section class="store-section">
+        <div class="container">
+            <div class="store-controls">
+                <div class="search-wrapper">
+                    <label for="searchInput">
+                        Пошук гри
+                    </label>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Введіть назву гри"
+                    >
+                </div>
+
+                <div class="filter-wrapper">
+                    <label for="genreFilter">
+                        Жанр
+                    </label>
+
+                    <select id="genreFilter">
+                        <option value="all">
+                            Усі жанри
+                        </option>
+                    </select>
+                </div>
+
+                <div class="filter-wrapper">
+                    <label for="platformFilter">
+                        Платформа
+                    </label>
+
+                    <select id="platformFilter">
+                        <option value="all">
+                            Усі платформи
+                        </option>
+                    </select>
+                </div>
+            </div>
+
+            <p class="games-result" id="gamesResult"></p>
+
+            <div class="games-grid" id="allGames">
+                <p class="loading-message">
+                    Завантаження ігор...
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-container">
+        <p>© 2026 GameZone</p>
+        <p>Навчальний приклад магазину ігор</p>
+    </div>
+</footer>
+
+<div class="notification" id="notification">
+    Гру додано до кошика
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
